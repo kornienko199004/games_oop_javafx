@@ -3,7 +3,8 @@ package ru.job4j.puzzle;
 public class Win {
     public static boolean check(int[][] board) {
         for (int row = 0; row < board.length; row += 1) {
-            if (board[row][row] == 1 && (checkHorizontal(row, board) || checkVertical(row, board))) {
+            if (board[row][row] == 1
+                    && (checkHorizontal(row, board) || checkVertical(row, board))) {
                 return true;
             }
         }
