@@ -32,7 +32,7 @@ public class BishopBlackTest {
         Figure bishopBlack = new BishopBlack(startPosition);
         Cell[] wayCells = bishopBlack.way(Cell.G5);
 
-        Cell[] expectedWayCells = { Cell.D2, Cell.E3, Cell.F4, Cell.G5 };
+        Cell[] expectedWayCells = {Cell.D2, Cell.E3, Cell.F4, Cell.G5};
         assertThat(wayCells, is(expectedWayCells));
     }
 
@@ -42,7 +42,7 @@ public class BishopBlackTest {
         Figure bishopBlack = new BishopBlack(startPosition);
         Cell[] wayCells = bishopBlack.way(Cell.G5);
 
-        Cell[] expectedWayCells = { Cell.D2, Cell.E3, Cell.F4, Cell.G5 };
+        Cell[] expectedWayCells = {Cell.D2, Cell.E3, Cell.F4, Cell.G5};
         assertThat(wayCells, is(expectedWayCells));
     }
 
@@ -52,7 +52,7 @@ public class BishopBlackTest {
         Figure bishopBlack = new BishopBlack(startPosition);
         Cell[] wayCells = bishopBlack.way(Cell.H8);
 
-        Cell[] expectedWayCells = { Cell.B2, Cell.C3, Cell.D4, Cell.E5, Cell.F6, Cell.G7, Cell.H8 };
+        Cell[] expectedWayCells = {Cell.B2, Cell.C3, Cell.D4, Cell.E5, Cell.F6, Cell.G7, Cell.H8};
         assertThat(wayCells, is(expectedWayCells));
     }
 
